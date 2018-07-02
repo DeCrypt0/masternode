@@ -56,8 +56,8 @@ function download_wallet() {
 	mkdir /root/glyno
     cd glyno
 	mkdir /root/.glyno
-	wget https://github.com/GlynoD/wallet/releases/download/v1.0.0/glyno-wallet-linux.tar.gz
-	tar -xvf glyno-wallet-linux.tar.gz
+	wget https://github.com/GlynoD/wallet/releases/download/v1.0.0/glyno-wallet-linux.tar
+	tar -xvf glyno-wallet-linux.tar
 	echo "Done..."
 }
 
